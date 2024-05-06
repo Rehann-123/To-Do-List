@@ -1,6 +1,6 @@
 {
-  "name": "to-do-list",
-  "version": "1.0.0",
+  "name": "rehan-to-do-list",
+  "version": "1.0.2",
   "description": "This Is A JavaScript Made To Do List",
   "main": "todo.js",
   "type": "module",

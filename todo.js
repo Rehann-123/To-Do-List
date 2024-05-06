@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let todolist = [];
 let isrunning = true;
@@ -25,7 +26,7 @@ while (isrunning) {
     }
     else if (todo.todo === "View Todo") {
         todolist.forEach((item, index) => {
-            console.table(index + 1 + " " + item);
+            console.log(index + 1 + " " + item);
         });
     }
     else if (todo.todo === "Delete Todo") {
